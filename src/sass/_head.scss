@@ -8,7 +8,7 @@ $black: #000000;
 
 .head {
   height: 100%;
-  display: flex;
+  display: block;
   width: 100%;
 
   @media (min-width: 768px) {
@@ -18,7 +18,6 @@ $black: #000000;
   &__nav {
     width: 100%;
     background-color: $black;
-    padding: 0 15%;
     @media (min-width: 768px) {
       flex-grow: 1;
       -webkit-flex-grow: 1;
@@ -30,20 +29,17 @@ $black: #000000;
   &__profile {
     text-align: center;
     display: block;
-    margin-top: 40px;
+    padding: 40px;
+    @media (min-width: 768px) {
+      padding: 0;
+      margin-top: 40px;
+    }
   }
 
   &__profile-img {
     width: 50%;
     border: 4px solid $white;
     border-radius: 50%;
-  }
-
-  &__name-logo-mobile {
-    padding: 40px;
-    @media (min-width: 768px) {
-      display: none;
-    }
   }
 
   &__description {
@@ -89,13 +85,12 @@ $black: #000000;
   }
 
   &__body {
-    display: none;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     @media (min-width: 768px) {
-      display: block;
       flex-basis: 75%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
     }
   }
 }
