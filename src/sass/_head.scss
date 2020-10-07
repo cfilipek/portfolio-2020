@@ -23,6 +23,15 @@ $black: #000000;
       -webkit-flex-grow: 1;
       flex-basis: 25%;
       padding: 0px 50px;
+      max-width: 180px;
+    }
+  }
+
+  &__nav-fixed {
+    @media (min-width: 768px) {
+      position: fixed;
+      top: 0;
+      left: 20px;
     }
   }
 
@@ -31,7 +40,9 @@ $black: #000000;
     display: block;
     padding: 40px;
     @media (min-width: 768px) {
-      padding: 0;
+      padding: 0px;
+      padding-left: 20px;
+      width: 30%;
       margin-top: 40px;
     }
   }
