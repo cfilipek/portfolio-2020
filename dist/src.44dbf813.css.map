@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/_base.scss"],"names":[],"mappings":"AAIA,iBAGE,QAAA,CACA,SAAA,CACA","file":"src.44dbf813.css","sourceRoot":"../src","sourcesContent":["/*--------------------------\n    base settings\n---------------------------*/\n\n*,\n*::before,\n*::after {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n"]}
