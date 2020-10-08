@@ -34,7 +34,7 @@ $light-pink: #f2d7d7;
     background-color: $white;
     @media (min-width: 768px) {
       flex-basis: 75%;
-      height: 100vh;
+      height: fit-content;
     }
   }
 
