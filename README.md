@@ -1,6 +1,8 @@
 # Claire Filipek's 2020 Portfolio
 
-![website demo gif](https://media2.giphy.com/media/qHT41bTvhULcxyIemI/giphy.gif)
+[http://clairefilipek.com/](http://clairefilipek.com/)
+
+![website demo gif](https://media0.giphy.com/media/uTOT1fKJcuq2wADoVO/giphy.gif)
 
 Thank you for looking at my 2020 website!
 
